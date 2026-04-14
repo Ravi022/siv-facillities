@@ -37,11 +37,26 @@ export default function WhyUs() {
 
         <div className="why-photo-col sr">
           <div className="why-photo-card">
-            <Image src="/images/staff-deployed.jpg" alt="SIV staff at corporate site" width={600} height={260} style={{objectFit:'cover',objectPosition:'top',width:'100%',height:'260px'}} />
+            <Image
+              src="/images/why-corporate-deployment.png"
+              alt="SIV facility team deployed inside a modern corporate office"
+              width={1200}
+              height={520}
+              className="why-photo-img"
+              sizes="(max-width: 900px) 100vw, min(560px, 45vw)"
+              priority
+            />
             <div className="why-photo-caption">Corporate Deployment</div>
           </div>
           <div className="why-photo-card">
-            <Image src="/images/staff-outdoor.jpg" alt="SIV outdoor staff" width={600} height={260} style={{objectFit:'cover',objectPosition:'top',width:'100%',height:'260px'}} />
+            <Image
+              src="/images/why-field-ready-team.png"
+              alt="Uniformed SIV field team ready at a commercial building entrance"
+              width={1200}
+              height={520}
+              className="why-photo-img"
+              sizes="(max-width: 900px) 100vw, min(560px, 45vw)"
+            />
             <div className="why-photo-caption">Field Ready Team</div>
           </div>
         </div>
