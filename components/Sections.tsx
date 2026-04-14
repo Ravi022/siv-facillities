@@ -282,6 +282,11 @@ export function Footer() {
           <div style={{fontSize:'11px',color:'rgba(255,255,255,0.3)',marginTop:'2px'}}>
             © 2026 · New Delhi — 110022 · Registered in India
           </div>
+          <div style={{fontSize:'11px',marginTop:'4px'}}>
+            <a href="mailto:smileyivaanfms@gmail.com" style={{color:'rgba(255,255,255,0.65)',textDecoration:'none'}}>
+              smileyivaanfms@gmail.com
+            </a>
+          </div>
         </div>
       </div>
       <div className="footer-links">
